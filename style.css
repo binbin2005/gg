@@ -512,27 +512,29 @@ body {
     margin-top: -1rem;
   }
 
-  .pembuka,
+/*   .pembuka,
   .doa,
   .penutup {
     padding: 25px;
     text-align: center;
     font-size: 1rem;
-  }
+  } */
 
   .pembuka h3 {
-    font-size: 2rem; /* Mengecil dari 3rem */
+    font-size: 1.5rem; /* Mengecil dari 3rem */
     margin-bottom: 20px;
   }
 
-  .penutup h3 {
+  .penutup h3, 
+  .amplop h3{
     font-size: 2rem; /* Mengecil dari 3rem */
     margin-bottom: 20px;
   }
 
   .pembuka p,
   .doa p,
-  .penutup p {
+  .penutup p,
+  .amplop p{
     font-size: 1em; /* Sedikit lebih kecil untuk mobile */
     line-height: 1.6;
     margin-bottom: 12px;
@@ -636,6 +638,40 @@ body {
     justify-content: center;
     align-items: center;
     display: none; /* awalnya disembunyikan */
+  }
+
+  .modal-content {
+    width: 95%;
+    padding: 10px 8px;
+  }
+
+  .bank-box {
+    padding: 10px;
+    margin: 8px 0;
+  }
+
+  .copy-button {
+    width: 100%;
+    font-size: 13px;
+    padding: 10px;
+  }
+
+  .open-button {
+    width: 90%;
+    font-size: 13px;
+    padding: 8px 16px;
+    margin: 0.5rem auto;
+    display: block;
+  }
+
+  .bank-logo {
+    height: 22px;
+  }
+
+  .close {
+    top: 8px;
+    right: 12px;
+    font-size: 22px;
   }
 }
 
@@ -816,6 +852,21 @@ body {
     justify-content: center;
     align-items: center;
     display: none; /* awalnya disembunyikan */
+  }
+
+  .modal-content {
+    width: 80%;
+    padding: 12px 10px;
+  }
+
+  .bank-box {
+    padding: 10px;
+    margin: 10px 0;
+  }
+
+  .copy-button {
+    width: 70%;
+    font-size: 14px;
   }
 }
 
